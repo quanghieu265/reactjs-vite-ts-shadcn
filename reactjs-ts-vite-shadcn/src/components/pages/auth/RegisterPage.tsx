@@ -40,14 +40,14 @@ const RegisterPage = () => {
   const navigate = useNavigate();
 
   // Mutations
-  const handleLogin = useMutation({
+  const handleRegister = useMutation({
     mutationFn: (data: z.infer<typeof FormSchema>) => {
       return services.auth.handleRegister(data);
     },
   });
 
   function onSubmit(data: z.infer<typeof FormSchema>) {
-    handleLogin.mutate(data, {
+    handleRegister.mutate(data, {
       onError: error => {
         const message = get(error, 'data.message', 'Something went wrong');
         // An error happened!

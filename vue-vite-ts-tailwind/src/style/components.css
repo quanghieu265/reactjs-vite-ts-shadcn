@@ -1,0 +1,16 @@
+@layer components {
+  .btn-primary {
+    border-radius: 8px;
+    background-color: var(--color-primary);
+    padding-inline: --spacing(5);
+    padding-block: --spacing(2);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-white);
+    box-shadow: var(--shadow-md);
+    &:hover {
+      @media (hover: hover) {
+        opacity: 0.8;
+      }
+    }
+  }
+}
