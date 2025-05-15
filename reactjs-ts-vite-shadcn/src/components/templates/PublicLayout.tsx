@@ -1,9 +1,9 @@
-import { RootState } from "@/store/store";
-import { Suspense } from "react";
-import { useSelector } from "react-redux";
-import { Navigate, Outlet } from "react-router-dom";
-import { Toaster } from "sonner";
-import Header from "./Header";
+import { RootState } from '@/store/store';
+import { Suspense } from 'react';
+import { useSelector } from 'react-redux';
+import { Navigate, Outlet } from 'react-router-dom';
+import { Toaster } from 'sonner';
+import Header from '@/components/organisms/Header';
 
 function PublicLayout() {
   const userInfo = useSelector((state: RootState) => state.auth.userInfo);

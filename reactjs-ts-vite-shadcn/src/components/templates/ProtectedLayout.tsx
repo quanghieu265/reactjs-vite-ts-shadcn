@@ -1,9 +1,9 @@
-import { Toaster } from "@/components/ui/sonner";
-import type { RootState } from "@/store/store";
-import { Suspense } from "react";
-import { useSelector } from "react-redux";
-import { Navigate, Outlet } from "react-router-dom";
-import Header from "./Header";
+import { Toaster } from '@/components/ui/sonner';
+import type { RootState } from '@/store/store';
+import { Suspense } from 'react';
+import { useSelector } from 'react-redux';
+import { Navigate, Outlet } from 'react-router-dom';
+import Header from '@/components/organisms/Header';
 
 function ProtectedLayout() {
   const userInfo = useSelector((state: RootState) => state.auth.userInfo);
