@@ -1,0 +1,22 @@
+{
+    "files.eol": "\r\n",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": ["source.formatDocument", "source.fixAll.eslint"],
+    "[markdown]": {
+        "editor.formatOnSave": false
+    },
+    "files.insertFinalNewline": true,
+    "editor.tabSize": 4,
+    "[javascript]": {
+        "editor.tabSize": 2
+    },
+    "[typescript]": {
+        "editor.tabSize": 2
+    },
+    "[typescriptreact]": {
+        "editor.tabSize": 2
+    },
+    "[javascriptreact]": {
+        "editor.tabSize": 2
+    },
+}
