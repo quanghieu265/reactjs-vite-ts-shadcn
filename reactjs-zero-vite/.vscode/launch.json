@@ -1,0 +1,13 @@
+// You need start project before run debug in Vscode
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Chrome - ReactJS",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceRoot}/src"
+        }
+    ]
+}
